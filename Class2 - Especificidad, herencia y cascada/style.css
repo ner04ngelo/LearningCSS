@@ -1,0 +1,48 @@
+/*HERENCIA*/
+
+
+/* p {
+    color: blue;
+}
+
+a {
+    color: inherit;
+} */
+
+
+/*Cascada*/
+
+
+/*
+
+Especificidad: Es la manera mediante la cual los navegadores deciden qué valores
+de una propiedad CSS son más relevantes.
+
+Cascada: Es el mecanismo que controla el resultado final de como visualizaremos una etiqueta html.
+
+Herencia: La etiqueta hereda los estilos del padre
+
+
+
+Etiqueta -> 1
+Clases y pseudoclases -> 10
+ID -> 100
+Estilos en linea -> 1000
+Important -> Gana a todo
+*/
+
+#parrafo {
+    color: aquamarine;
+}
+
+.parrafo {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: gray;
+}
